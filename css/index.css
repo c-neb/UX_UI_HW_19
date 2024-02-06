@@ -1,0 +1,166 @@
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">/* 
+General styles */
+.inline-block {
+    display: inline-block;
+    vertical-align: top; 
+}
+
+body {
+    background-color: #C5CEB9;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    width: 110%;
+}
+
+
+/* Header styles start here */
+.inline-block{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    width: 100%;
+}
+
+.logo {
+    float: left; 
+    max-width: 100%;
+    max-height: 100%; 
+    padding-top: -1px;
+    padding-left: 20px;
+    padding-right: 1000px
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #F26C50;
+  color: black;
+}
+
+.topnav a.active {
+  color: #FFF5EA;
+}
+
+/* mySkills styles start here */
+h1 {
+    font-size: 70px; 
+    padding-left: 20%;
+
+}
+
+.description {
+    padding-left: 27%;
+    padding-bottom: 70px;
+    padding-right: -40px;
+    margin-top: -40px;
+    font-size: 30px;
+}
+
+/* myWork styles start here */
+body { 
+    transition: background-color 0.5s ease-in-out;
+}
+
+.projectDetails {
+    margin-left: 50px;
+}
+
+.workImg {
+    margin-left: 300px;
+}
+
+.work{
+    font-size: 25px;
+    padding-left: 30px;
+    margin-top: -30px
+}
+
+.jetSetter {
+ display: grid;
+ align-items: top; 
+ grid-template-columns: 1fr 1fr 1fr;
+ padding: 20px;
+ column-gap: 50px;
+ border-top: solid medium #FFF5EA;
+ width: 100%;
+}
+
+.jetSetter:hover {
+  background-color: #DAA189;
+}
+
+.woo {
+ display: grid;
+ align-items: top; 
+ grid-template-columns: 1fr 1fr 1fr;
+ padding: 20px;
+ column-gap: 50px;
+ border-top: solid medium #FFF5EA;
+ width: 100%;
+    
+}
+
+.woo:hover {
+    background-color: #DAA189;
+}
+
+.crossroads {
+ display: grid;
+ align-items: top; 
+ grid-template-columns: 1fr 1fr 1fr;
+ padding: 20px;
+ column-gap: 50px;
+ border-top: solid medium #FFF5EA;
+ border-bottom: solid medium #FFF5EA;
+ width: 100%;
+}
+
+.crossroads:hover {
+  background-color: #DAA189;
+}
+
+
+h2 {
+    font-size: 45px; 
+    padding-left: 70px;
+}
+   
+h4{
+    font-size: 40px
+}
+.workGrid {
+    display: inline-block;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+}
+ 
+/* footer styles start here */
+footer{
+    margin-top:90px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}   
+.bttmnav a {
+  float: left;
+  color: #F26C50;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+  font-size: 17px;
+    
+}
+
+.bttmnav a:hover {
+  color: black;
+}
